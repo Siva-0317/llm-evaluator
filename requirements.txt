@@ -1,0 +1,6 @@
+# Purpose-Driven Local LLM Evaluator
+# Python 3.8+ required
+
+PySide6>=6.6.0
+llama-cpp-python>=0.2.0
+PyYAML>=6.0
