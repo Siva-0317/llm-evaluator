@@ -1,0 +1,13 @@
+# Classification Evaluation Set
+task: classification
+description: Test model's ability to classify text
+
+cases:
+  - input: "This movie was absolutely fantastic! I loved every minute of it. Highly recommended!"
+    expected: "positive"
+
+  - input: "Terrible experience. The service was awful and the product broke within a week."
+    expected: "negative"
+
+  - input: "The weather today is partly cloudy with a chance of rain in the afternoon."
+    expected: "neutral"

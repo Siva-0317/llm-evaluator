@@ -1,0 +1,66 @@
+models:
+- name: mistral-7b-instruct
+  path: models/mistral-7b-instruct-v0.2.Q4_K_M.gguf
+  type: chat
+  tags:
+  - general
+  - reasoning
+  - creative
+  - instruction-following
+- name: llama-2-7b-chat
+  path: models/llama-2-7b-chat.Q4_K_M.gguf
+  type: chat
+  tags:
+  - general
+  - chat
+  - conversation
+- name: codellama-7b
+  path: models/codellama-7b-instruct.Q4_K_M.gguf
+  type: code
+  tags:
+  - code
+  - programming
+  - technical
+- name: phi-2
+  path: models/phi-2.Q4_K_M.gguf
+  type: reasoning
+  tags:
+  - reasoning
+  - analysis
+  - small-model
+- name: legal-summarizer
+  path: models/legal-bert-summary.gguf
+  type: summarization
+  tags:
+  - legal
+  - summarization
+  - documents
+- name: gemma-3-1B-it-QAT-Q4_0
+  path: D:/exported-assets (3)/llm_evaluator/models/gemma-3-1B-it-QAT-Q4_0.gguf
+  type: general
+  tags:
+  - general
+- name: Llama-3.2-3B-Instruct-Q4_K_M
+  path: D:/exported-assets (3)/llm_evaluator/models/Llama-3.2-3B-Instruct-Q4_K_M.gguf
+  type: general
+  tags:
+  - general
+- name: gemma-2-2b-it-Q4_K_M
+  path: D:/exported-assets (3)/llm_evaluator/models/gemma-2-2b-it-Q4_K_M.gguf
+  type: general
+  tags:
+  - general
+- name: Qwen3-4B-Instruct-2507-Q4_K_M
+  path: D:/exported-assets (3)/llm_evaluator/models/Qwen3-4B-Instruct-2507-Q4_K_M.gguf
+  type: general and coding
+  tags:
+  - general
+  - coding
+  - programming
+  - reasoning
+- name: emotion-analyzer-bert.Q8_0
+  path: D:/AI/mradermacher/emotion-analyzer-bert-GGUF/emotion-analyzer-bert.Q8_0.gguf
+  type: general and classification
+  tags:
+  - general
+  - classification

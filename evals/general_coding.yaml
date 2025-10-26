@@ -1,0 +1,37 @@
+# General + Coding Evaluation Set
+# For models like Qwen3-4B that handle both general and coding tasks
+task: general_coding
+description: Test general knowledge, reasoning, and coding ability
+
+cases:
+  # General Knowledge (4 cases)
+  - input: "What is the capital of Japan?"
+    expected: "Tokyo"
+    
+  - input: "Explain artificial intelligence in one simple sentence."
+    expected: "intelligence"
+    
+  - input: "What is the largest planet in our solar system?"
+    expected: "Jupiter"
+    
+  - input: "If I have 5 apples and give away 2, how many do I have left?"
+    expected: "3"
+  
+  # Coding Tasks (6 cases)
+  - input: "Write a Python function to calculate the factorial of a number."
+    expected: "def"
+    
+  - input: "How do you reverse a string in Python? Show code."
+    expected: "reverse"
+    
+  - input: "Write a function to check if a number is even or odd."
+    expected: "def"
+    
+  - input: "Create a Python list comprehension that generates squares of numbers 1 to 5."
+    expected: "for"
+    
+  - input: "What is a REST API and what HTTP methods does it use?"
+    expected: "GET"
+    
+  - input: "Write a simple Python class for a Car with attributes make and model."
+    expected: "class"

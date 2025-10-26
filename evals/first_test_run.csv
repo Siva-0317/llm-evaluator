@@ -1,0 +1,4 @@
+Model Name,Output Snippet,Latency (s),Tokens,Pass/Fail,Rating
+gemma-3-1B-it-QAT-Q4_0,Passed 0/3 cases,80.67,1536,0/3,0.0
+Llama-3.2-3B-Instruct-Q4_K_M,Passed 0/3 cases,95.80,971,0/3,0.0
+gemma-2-2b-it-Q4_K_M,Passed 0/3 cases,63.24,1005,0/3,0.0

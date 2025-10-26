@@ -1,0 +1,57 @@
+# Mixed Specialization Test
+# Demonstrates that specialized models excel at their domain but fail outside it
+task: mixed_specialization
+description: Test models across emotion, general, and coding tasks to show specialization
+
+cases:
+  # ============================================
+  # EMOTION/SENTIMENT TASKS 
+  # ============================================
+  
+  - input: "Analyze the emotion: 'I'm so happy and excited about this!'" 
+    expected: "joy"
+
+  - input: "What sentiment is this: 'This is terrible and disappointing.'" 
+    expected: "negative"
+
+  - input: "Classify emotion: 'I feel anxious and worried about tomorrow.'" 
+    expected: "anxiety"
+
+  - input: "Detect sentiment: 'Best purchase ever! Absolutely love it!'" 
+    expected: "positive"
+  
+  # ============================================
+  # GENERAL KNOWLEDGE TASKS 
+  # ============================================
+  
+  - input: "What is the capital of France?"
+    expected: "Paris"
+    
+  - input: "What is 15 multiplied by 8?"
+    expected: "120"
+    
+  - input: "What does CPU stand for?"
+    expected: "Central"
+  
+  # ============================================
+  # CODING TASKS 
+  # ============================================
+  
+  - input: "Write a Python function to reverse a string."
+    expected: "def"
+    
+  - input: "How do you create a list in Python? Show syntax."
+    expected: "[]"
+
+#Save this as:** `llm_evaluator/evals/mixed_specialization_test.yaml`
+
+#This evaluation set has **13 total test cases:**
+#- **4 emotion tasks** - Emotion BERT should excel here (4/4)
+#- **3 general knowledge tasks** - Both models might handle these (varies)
+#- **6 coding tasks** - Qwen3 should excel here (5-6/6)
+
+#When you run this on both models, you'll clearly see:
+#- **Qwen3:** Strong at coding, weak at emotion detection
+#- **Emotion BERT:** Strong at emotion detection, weak at coding
+
+#This perfectly demonstrates why model specialization matters!

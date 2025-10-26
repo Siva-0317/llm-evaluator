@@ -1,0 +1,28 @@
+# General Purpose Model Evaluation
+task: general
+description: Test general knowledge, reasoning, and instruction-following
+
+cases:
+  - input: "What is the capital of France?"
+    expected: "Paris"
+    
+  - input: "Explain what machine learning is in one sentence."
+    expected: "learning"
+    
+  - input: "Write a simple Python function to add two numbers."
+    expected: "def"
+    
+  - input: "What is 15 multiplied by 8?"
+    expected: "120"
+    
+  - input: "List three programming languages."
+    expected: "Python"
+    
+  - input: "What does HTTP stand for?"
+    expected: "HyperText"
+    
+  - input: "Explain recursion in simple terms."
+    expected: "recursion"
+    
+  - input: "What is the difference between RAM and ROM?"
+    expected: "memory"

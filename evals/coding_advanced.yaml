@@ -1,0 +1,40 @@
+# Advanced Coding Evaluation Set
+# Specifically for coding-focused models
+task: coding
+description: Test programming ability across different scenarios
+
+cases:
+  # Python Basics
+  - input: "Write a function that takes a list and returns the sum of all even numbers."
+    expected: "def"
+    
+  - input: "How do you handle exceptions in Python? Show a try-except example."
+    expected: "try"
+    
+  # Data Structures
+  - input: "Write a function to find the maximum element in a list without using max()."
+    expected: "def"
+    
+  - input: "Create a function that removes duplicates from a list."
+    expected: "set"
+    
+  # Algorithms
+  - input: "Write a function to check if a string is a palindrome."
+    expected: "palindrome"
+    
+  - input: "Implement binary search in Python."
+    expected: "binary"
+    
+  # Web/API
+  - input: "How do you make an HTTP GET request in Python? Show code."
+    expected: "request"
+    
+  - input: "What is the difference between GET and POST methods?"
+    expected: "GET"
+    
+  # OOP
+  - input: "Create a Python class with inheritance. Show parent and child class."
+    expected: "class"
+    
+  - input: "Explain what a decorator is in Python and show an example."
+    expected: "decorator"

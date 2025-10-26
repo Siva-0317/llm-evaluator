@@ -1,0 +1,13 @@
+# Summarization Evaluation Set
+task: summarization
+description: Test model's ability to summarize text
+
+cases:
+  - input: "The quick brown fox jumps over the lazy dog. This sentence contains every letter of the English alphabet. It is commonly used for testing fonts and keyboards."
+    expected: "alphabet"
+
+  - input: "Climate change refers to long-term shifts in global temperatures and weather patterns. Since the 1800s, human activities have been the main driver of climate change, primarily due to burning fossil fuels."
+    expected: "climate"
+
+  - input: "Artificial intelligence is the simulation of human intelligence by machines. It includes learning, reasoning, and self-correction. AI applications include expert systems, speech recognition and machine vision."
+    expected: "intelligence"

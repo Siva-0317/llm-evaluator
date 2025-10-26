@@ -1,0 +1,13 @@
+# Creative Writing Evaluation Set
+task: creative
+description: Test model's creative writing ability
+
+cases:
+  - input: "Write a one-sentence story about a robot learning to love."
+    expected: "robot"
+
+  - input: "Create a haiku about programming."
+    expected: "code"
+
+  - input: "Write a short description of a magical forest."
+    expected: "forest"
